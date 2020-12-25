@@ -1,0 +1,114 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+.main{
+	width: 1000px;
+	padding-top: 20px;
+	margin: 0 auto;
+	height: 564px;
+}
+.main-body{
+	width: 300px;
+	height: 564px;
+	margin: 0px auto;
+	text-align: center;
+
+}
+.logo{
+	width: 300px;
+	height: 319px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.logo>img{
+	padding-top: 282px;
+}
+.phone{
+	width: 300px;
+	height: 36px;
+}
+.tel{
+	border: none;
+	border-bottom: 1px solid #000;
+	font-size: 18px;
+	width: 265px;
+	height: 34px;
+	background: url(https://www.iliangcang.com/images/nlphone.png)no-repeat 0px 6px;
+	padding-left: 35px;
+	font-family: 'Hiragino Sans GB','冬青黑体','Hiragino Kaku Gothic ProN','Microsoft Yahei' ,'Simsun','Arial', 'Helvetica', 'sans-serif';
+	outline: none;
+}
+.code{
+	width: 300px;
+	height: 36px;
+	margin-top: 22px;
+}
+.code-input{
+	width: 137px;
+	height: 34px;
+	border: none;
+	border-bottom: 1px solid #000;
+	font-size: 18px;
+	background: url(https://www.iliangcang.com/images/nlcode.png)no-repeat 2px 8px;
+	padding-left: 35px;
+	float: left;
+	font-family: 'Hiragino Sans GB','冬青黑体','Hiragino Kaku Gothic ProN','Microsoft Yahei' ,'Simsun','Arial', 'Helvetica', 'sans-serif';
+	outline: none;
+}
+.code-button{
+	border: 1px solid #000;
+	height: 35px;
+	line-height: 34px;
+	width: 110px;
+	font-size: 16px;
+	margin-left: 12px;
+	border-radius: 4px;
+	color: #333;
+	float: right;
+	cursor: pointer;
+	background-color: white;
+}
+.auto-login{
+	width: 300px;
+	height: 40px;
+	padding-top: 22px;
+}
+.auto-login>input{
+	float: left;
+}
+.auto-login>span{
+	float: left;
+	font-size: 12px;
+	padding-left: 2px;
+}
+.login{
+	width: 300px;
+	height: 110px;
+}
+.login-btn{
+	width: 300px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: #25292E;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 4px;
+	font-weight: normal;
+	font-size: 18px;
+	font-family: 'Hiragino Sans GB','冬青黑体','Hiragino Kaku Gothic ProN','Microsoft Yahei' ,'Simsun','Arial', 'Helvetica', 'sans-serif';
+}
+.more>a{
+	color: #25292E;
+}

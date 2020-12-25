@@ -1,0 +1,267 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+    background-color: #999;
+}
+.main{
+	width: 1000px;
+	height: 682px;
+	margin: 0px auto;
+	padding-top: 110px;
+}
+.main-body{
+	width: 565px;
+	height: 600px;
+	margin: 40px auto 0px;
+	padding-bottom: 40px;
+}
+.logo{
+	width: 458px;
+	height: 130px;
+	padding-left: 106px;
+	padding-top: 30px;
+}
+.tel{
+	width: 564px;
+	height: 50px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.memo{
+	width: 200px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 400px;
+}
+.th{
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	padding-right: 20px;
+}
+.telInput,.codeInput{
+	margin-left: 13px;
+}
+.input{
+	background: url(https://imgs-qn.iliangcang.com/images/default/loginuserBg.png) no-repeat;
+	width: 280px;
+	height: 50px;
+	border: 0;
+	line-height: 50px;
+	padding-left: 20px;
+    outline: none;
+	font-size: 14px;
+	font-weight: bold;
+    color: white;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	padding-right: 20px;
+}
+.label{
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	padding-right: 20px;
+	position: absolute;
+	left: 103px;
+	top: 13px;
+}
+.code{
+	position: relative;
+	margin-bottom: 10px;
+}
+.random{
+	display: inline-block;
+	width: 50px;
+	height: 28px;
+	border: 1px solid black;
+	background-color: white;
+	vertical-align: middle;
+	text-align: center;
+}
+.code>a{
+	color: white;
+	font-size: 12px;
+}
+.memo2{
+	width: 200px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 563px;
+}
+.set,.confirm{
+	position: relative;
+	margin-bottom: 10px;
+}
+.memo3{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 540px;
+	color: white;
+	font-size: 14px;
+	display: none;
+}
+.memo3 span{
+	display: block;
+}
+.memo4{
+	width: 200px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 400px;
+}
+.pwdinfo{
+	width: 200px;
+	height: 50px;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 400px;
+}
+.pwdinfo .content{
+    background: url(https://imgs-qn.iliangcang.com/images/default/pwd_note_bg.png)no-repeat;
+    padding: 0;
+    width: 127px;
+    height: 12px;
+}
+
+.pwdinfo .low{
+    background: url(https://imgs-qn.iliangcang.com/images/default/pwd_note_bg_low.png);
+}
+
+.pwdinfo .mid{
+    background: url(https://imgs-qn.iliangcang.com/images/default/pwd_note_bg_mid.png);
+}
+
+.pwdinfo .high{
+    background: url(https://imgs-qn.iliangcang.com/images/default/pwd_note_bg_high.png);
+}
+
+.pwdinfo .info{
+    width: 127px;
+    height: 16px;
+    font-size: 0px;
+    color: #4c4c4c;
+}
+.pwdinfo span{
+    font-size: 12px;
+    display: inline-block;
+    width: 41px;
+    text-align: center;
+}
+.passLeft{
+    position: relative;
+    left: -13px;
+}
+.passRight{
+    position: relative;
+    right: -15px;
+}
+
+.auto-login{
+	width: 295px;
+	height: 24px;
+	padding-left: 80px;
+	font-size: 12px;
+	margin-top: 15px;
+}
+.auto-login>input{
+	vertical-align: middle;
+	opacity: 1!important;
+}
+.auto-login-span ,.forget-psw{
+	vertical-align: middle;
+	color: #fff;
+}
+.login-btn{
+	width: 300px;
+	height: 50px;
+	padding-left: 80px;
+	margin: 13px 0px;
+}
+.login-btn>input{
+	cursor: pointer;
+	width: 300px;
+	height: 50px;
+	border: 0;
+	background: #25292e;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 9px;
+	margin-bottom: 30px;
+}
+.more{
+	width: 310px;
+	height: 40px;
+	margin-top: 40px;
+	padding-left: 80px;
+}
+.more-left{
+	width: 310px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+.qq{
+	background: url(https://imgs-qn.iliangcang.com/images/default/qqnormal.png) no-repeat;
+	margin-left: 5px;
+	color: #878787;
+}
+.icon{
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	margin: 0px;
+	position: relative;
+	cursor: pointer;
+}
+.weibo{
+	background: url(https://imgs-qn.iliangcang.com/images/default/xinlangnormal.png) no-repeat;
+	color: #878787;
+}
+.douban{
+	background: url(https://imgs-qn.iliangcang.com/images/default/doubannormal.png) no-repeat;
+	color: #878787;
+}
+.tencent{
+	background: url(https://imgs-qn.iliangcang.com/images/default/tengxunnormal.png) no-repeat;
+	color: #878787;
+}
+.login-now{
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	position: relative;
+	top: -12px;
+	right: 6px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #ffffff;
+	float: right;
+	margin-top: 13px;
+}

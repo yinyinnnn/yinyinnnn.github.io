@@ -1,0 +1,734 @@
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title></title>
+			<link rel="stylesheet" type="text/css" href="css/Goodsdetail.css"/>
+		</head>
+		<body>
+			<!-- 头部 -->
+			<div id="header">
+				<div id="header-top">
+					<div class="wrap">
+						<div class="logo">
+							<a href="index.html"></a>
+						</div>
+						<ul class="header-right">
+							<li>
+								<a href="login.html" class="loginBtn">登录</a>
+								<a href="register.html" class="registerBtn">注册</a>
+							</li>
+							<li class="line"></li>
+							<li class="black-character shop-cart">
+								<a href="cart.html">购物车</a>
+								<div class="hide cart">
+									<div class="shop-nullcar">
+										<a href="javascript:;">你的购物车暂时没有商品...</a>
+									</div>
+									<div class="car_list hide"></div>
+									<a href="https://iliangcang.com/i/shop/" class="add-shop">快去抢购良仓商品吧！</a>
+								</div>
+							</li>
+							<li class="line"></li>
+							<li class="black-character message-a">
+								<a href="cart.html">消息</a>
+								<div class="hide user-m">
+									<a href="https://iliangcang.com/i/usermain/feed/">
+										<span>动态<small>0</small></span>
+									</a>
+									<a href="https://iliangcang.com/i/message/">
+										<span>评论<small>0</small></span>
+									</a>
+									<a href="https://iliangcang.com/i/message/msg/">
+										<span>私信<small>0</small></span>
+									</a>
+									<a href="https://iliangcang.com/i/usermain/fans/?id=">
+										<span>粉丝<small>0</small></span>
+									</a>
+									<a href="https://iliangcang.com/i/message/notice_favour/">
+										<span>喜欢<small>0</small></span>
+									</a>
+									<a href="https://iliangcang.com/i/message/notice/">
+										<span>通知<small>0</small></span>
+									</a>
+								</div>
+							</li>
+							<li class="line"></li>
+							<li class="black-character">
+								<a href="cart.html">添加良品</a>
+							</li>
+							<li class="line"></li>
+							<li class="black-character">
+								<a href="cart.html">资质证照/协议规则</a>
+							</li>
+						</ul>
+					</div>
+				
+				</div>
+				
+			</div>
+			<!-- 导航 -->
+			<div class="nav">
+				<ul>
+					<li>
+						<a href="index.html" style="text-align: left;">首页</a>
+					</li>
+					<li class="shop-list">
+						<a href="#" class="shop">商店</a>
+						<div class="submHide store">
+							<div class="storeLeft f1">
+								<!-- <dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/23/23687.png" >
+											<div class="cat_name">
+												<a href="#">家居</a>
+											</div>
+										</div>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/23/23686.png" >
+											<div class="cat_name">
+												<a href="#">文具</a>
+											</div>
+										</div>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/23/23683.png" >
+											<div class="cat_name">
+												<a href="#">数码</a>
+											</div>
+										</div>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/23/23682.png" >
+											<div class="cat_name">
+												<a href="#">玩乐</a>
+											</div>
+										</div>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/23/23684.png" >
+											<div class="cat_name">
+												<a href="#">餐厨</a>
+											</div>
+										</div>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/23/23680.png" >
+											<div class="cat_name">
+												<a href="#">美食</a>
+											</div>
+										</div>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/23/23678.png" >
+											<div class="cat_name">
+												<a href="#">服装</a>
+											</div>
+										</div>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/23/23676.png" >
+											<div class="cat_name">
+												<a href="#">鞋包</a>
+											</div>
+										</div>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/23/23675.png" >
+											<div class="cat_name">
+												<a href="#">配饰</a>
+											</div>
+										</div>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/23/23681.png" >
+											<div class="cat_name">
+												<a href="#">美护</a>
+											</div>
+										</div>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/23/23674.png" >
+											<div class="cat_name">
+												<a href="#">出行</a>
+											</div>
+										</div>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/23/23668.png" >
+											<div class="cat_name">
+												<a href="#">图书</a>
+											</div>
+										</div>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/23/23672.png" >
+											<div class="cat_name">
+												<a href="#">艺术</a>
+											</div>
+										</div>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/30/30074.png" >
+											<div class="cat_name">
+												<a href="#">水具</a>
+											</div>
+										</div>
+									</dt>
+								</dl>
+								<dl>
+									<dt>
+										<div class="cat_img">
+											<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/30/30029.png" >
+											<div class="cat_name">
+												<a href="#">运动</a>
+											</div>
+										</div>
+									</dt>
+								</dl> -->
+							</div>
+							<div class="storeRight fr">
+								<a href="https://www.iliangcang.com/i/goods/?id=247665">
+									<dl>
+										<dt>
+											<img src="https://image.iliangcang.com/ware/upload/orig/2/315/315574.jpg" >
+										</dt>
+										<dd>新视线：&nbsp;2015年7月刊</dd>
+									</dl>
+								</a>
+							</div>
+						</div>
+						
+					</li>
+					<li class="magazine-list">
+						<a href="#" class="magazine-a">杂志</a>
+						<div class="submHide magazine">
+							<a href="https://iliangcang.com/i/topic/?cat_id=21">趣物</a>
+							<a href="https://iliangcang.com/i/topic/?cat_id=20">数码</a>
+							<a href="https://iliangcang.com/i/topic/?cat_id=18">汽车</a>
+							<a href="https://iliangcang.com/i/topic/?cat_id=11">文化</a>
+							<a href="https://iliangcang.com/i/topic/?cat_id=15">时尚</a>
+							<a href="https://iliangcang.com/i/topic/?cat_id=9">美食</a>
+							<a href="https://iliangcang.com/i/topic/?cat_id=19">建筑</a>
+							<a href="https://iliangcang.com/i/topic/?cat_id=21">空间</a>
+							<a href="https://iliangcang.com/i/topic/?cat_id=7">圈子</a>
+							<a href="https://iliangcang.com/i/topic/?cat_id=12">清单</a>
+							<a href="https://iliangcang.com/i/topic/?cat_id=24">活动</a>
+							<a href="https://iliangcang.com/i/topic/?cat_id=23">视频</a>
+							
+						</div>
+					</li>
+					<li class="share-list">
+						<a href="#" class="share-a">分享</a>
+						<div class="submHide share">
+							<a href="https://iliangcang.com/i/class/?id=1">男士</a>
+							<a href="https://iliangcang.com/i/class/?id=20">家居</a>
+							<a href="https://iliangcang.com/i/class/?id=3">数码</a>
+							<a href="https://iliangcang.com/i/class/?id=4">工具</a>
+							<a href="https://iliangcang.com/i/class/?id=5">玩具</a>
+							<a href="https://iliangcang.com/i/class/?id=7">美容</a>
+							<a href="https://iliangcang.com/i/class/?id=10">孩子</a>
+							<a href="https://iliangcang.com/i/class/?id=9">宠物</a>
+							<a href="https://iliangcang.com/i/class/?id=13">饮食</a>
+							<a href="https://iliangcang.com/i/class/?id=8">运动</a>
+							<a href="https://iliangcang.com/i/class/?id=15">文化</a>
+							<a href="https://iliangcang.com/i/class/?id=2">女士</a>
+							
+						</div>
+					</li>
+					<li>
+						<a href="#">达人</a>
+					</li>
+				</ul>
+				<div class="search">
+					<input type="text" name="" id="" value="" />
+					<a href="javascript:;"></a>
+				</div>
+			
+			</div>
+			<!-- 商品详情区 -->
+			<div class="main">
+				<div class="position">
+					<a href="index.html">良仓</a>>
+					<a href="">美护</a>>
+					<a href="">美妆工具</a> >干湿两用气垫气囊梳子 | 磨砂梳柄 顺发造型
+				</div>
+				<div class="like">
+					 <div class="guess-like">猜你喜欢</div>
+						<div class="all">
+							<div class="like-goods">
+								<a href="">
+									<div class="like-goods-img">
+										<img src="https://imgs-qn.iliangcang.com/ware/goods/big/2/280/280513.jpg?t=1603882085" >
+									</div>
+								</a>
+								<a href="" >
+									<div class="divname">滋养润泽发膜</div>
+								</a>
+								<div class="divbrand">SOWA</div>
+								<div class="div-price">
+									<div class="div-money">
+										￥198
+									</div>
+								</div>
+							</div>
+							<div class="like-goods">
+								<a href="">
+									<div class="like-goods-img">
+										<img src="https://imgs-qn.iliangcang.com/ware/goods/big/2/280/280512.jpg?t=1603881749" >
+									</div>
+								</a>
+								<a href="" >
+									<div class="divname">蓬松生发洗护套装</div>
+								</a>
+								<div class="divbrand">SOWA</div>
+								<div class="div-price">
+									<div class="div-money">
+										￥178
+									</div>
+								</div>
+							</div>
+							<div class="like-goods">
+								<a href="">
+									<div class="like-goods-img">
+										<img src="https://imgs-qn.iliangcang.com/ware/goods/big/2/280/280511.jpg?t=1603879412" >
+									</div>
+								</a>
+								<a href="" >
+									<div class="divname">滋润洗护套装</div>
+								</a>
+								<div class="divbrand">SOWA</div>
+								<div class="div-price">
+									<div class="div-money">
+										￥198
+									</div>
+								</div>
+							</div>
+							<div class="like-goods">
+								<a href="">
+									<div class="like-goods-img">
+										<img src="https://imgs-qn.iliangcang.com/ware/goods/big/2/280/280501.jpg" >
+									</div>
+								</a>
+								<a href="" >
+									<div class="divname">i型精油雾养吹风机</div>
+								</a>
+								<div class="divbrand">efbe-schott飞舶</div>
+								<div class="div-price">
+									<div class="div-money">
+										￥1699
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+				<div class="mod">
+					<span id="prev" class="btn"></span>
+					<span id="next"class="btn"></span>
+					<div class="picBox">
+						<ul>
+							<li>
+								<div class="banner1"></div>
+							</li>
+							<li>
+								<div class="banner2"></div>
+							</li>
+							<li>
+								<div class="banner3"></div>
+							</li>
+							<li>
+								<div class="banner4"></div>
+							</li>
+						</ul>
+					</div>
+					<div class="listBox">
+						<ul>
+							<li>
+								<div id="small1"></div>
+							</li>
+							<li>
+								<div id="small2"></div>
+							</li>
+							<li>
+								<div id="small3"></div>
+							</li>
+							<li>
+								<div id="small4"></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="goodsDetail">
+					<div class="favCountNumber">600</div>
+					<div class="gdName">
+						<a href="">KENT肯特</a>
+					</div>
+					<div class="gdName"> 干湿两用气垫气囊梳子 | 磨砂梳柄 顺发造型 </div>
+					<div class="infoItem">
+						价格：&nbsp;&nbsp;
+						<span class="infoItem-price">¥209元</span>
+					</div>
+					<div class="shipNote">
+						<span class="free">免运费</span>
+						<span class="real">正品授权</span>
+					</div>
+					<div class="colorCon">
+						<div class="color">
+							颜色：&nbsp;&nbsp;
+						</div>
+						<div class="small-img">
+							<div class="small-img1">
+								<div class="imgCon">
+									<img src="./Goodsimg/img1.jpg" >
+								</div>
+								<div class="name">
+									大板细齿梳
+								</div>
+							</div>
+							<div class="small-img2">
+								<div class="imgCon">
+									<img src="./Goodsimg/img2.jpg" >
+								</div>
+								<div class="name">
+									便携粗齿梳
+								</div>
+							</div>
+							<div class="small-img3">
+								<div class="imgCon">
+									<img src="./Goodsimg/img3.jpg" >
+								</div>
+								<div class="name">
+									便携细齿梳
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="amountCon">
+						数量：&nbsp;&nbsp;
+						<div class="mopt">
+							<a href="javascript:;">
+								<img src="Goodsimg/minus.png" >
+							</a>
+							<input type="text" name="" id="" value="1" />
+							<a href="javascript:;">
+								<img src="Goodsimg/add.png" >
+							</a>
+						</div>
+					</div>
+					<div class="buy-all">
+						<a href="javascript:;" class="buy-now">立即购买</a>
+					</div>
+					<div class="twoBtn">
+						<a href="#" class="join-cart">
+							<span class="join-cart-btn">加入购物车</span>
+						</a>
+						<a href="javascript:;"class="share-it">
+							<span class="share-it-Btn">分享</span>
+						</a>
+					</div>
+				</div>	
+			</div>
+			<!-- 商品图片区 -->
+		    <div class="picture">
+		    	<div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744924450156.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744933766660.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744937200825.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744941340028.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744946342276.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744950340700.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744954310217.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744958214511.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744962372317.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744968318427.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744971365931.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744975969982.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744979659581.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744982511534.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744985983179.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744990315880.jpg" >
+					</div>
+					<div class="goodsDetail-img">
+						<img src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20200703/1593744994504406.jpg" >
+					</div>
+		    	</div>
+		    </div>
+			<div class="brand">
+				<div class="brand-detail">
+					品牌简介
+				</div>
+				<div class="navItemCon">
+					<div class="navItemCon-content">
+						诞生于1777年的GB肯特父子有限公司（GB Kent&Sons Ltd），是英国现存世界上最早的梳刷品牌，长久以来肯特在制刷业都拥有绝对的主导地位，它的卓越品质早已被英国皇室所认同，为英国皇室唯一认证的梳刷品牌，至今已伴随着王室成员更迭过九代。一直以来，肯特手工制作并手绘各式梳子，选取天然野猪鬃毛做材料，受到英国王室的青睐。
+					</div>
+				</div>
+			</div>
+			<div class="guide">
+				<div class="shopping-guide">
+					购物指南
+				</div>
+				<div class="navItemCon">
+					<p>- 所有商品均为正品保证。</p>
+					<p>- 中国大陆地区免运费，默认商家合作快递。</p>
+					<p>- 蜡烛、液态品、手表等含电池产品无法空运，运输时间相较普通空运件会更久。</p>
+					<p>- 如出现产品质量问题请在签收后72小时内联系客服。</p>
+				</div>
+			</div>
+			<div class="aftre-sales">
+				<div class="cusService">
+					<div>
+						<div class="reminder">温馨提示：</div>
+						<div class="reminder-text">如您订购的是生鲜冷冻商品，建议您收货时开箱检验。如发现变质或破损、漏发错发等情况，请于签收后48小时内对商品及包装外箱拍照并发给在线客服，我们将尽速进行处理。</div>
+					</div>
+					<div style="margin-top: 1em;">
+						<div class="reminder">关于售后：</div>
+						<div class="aftre-sales-service">
+							一、如出现以下情况，请及时联系客服团队并提供订单编号或收件人手机号，我们将竭诚为您服务：
+                             <br>
+							 1.&nbsp;&nbsp;  错发、漏发
+                             <br>
+							 2.&nbsp;&nbsp;  商品自身质量问题
+                             <br>
+							 3.&nbsp;&nbsp;  快递挤压破损、延迟配送导致的商品变质
+                             <br>
+							 您收到的商品本身如有破损、瑕疵，我们将视为质量问题，因拍摄图片或显示器色差导致的色彩差异问题不属于质量问题。因产品尺码为手工测量，可能存在些许误差，敬请谅解。
+						</div>
+						<div class="return">
+							二、退货说明：良仓承诺商品本身有质量问题时，在商品及吊牌、内包装完整无破损的情况下，您可以办理退货。在快递被签收后72小时内登录APP点击个人-我的订单-售后即可申请退货，并将破损问题拍照上传保存，在得到客服退货确认回复之日起3日内将商品寄出，同时请将快递公司和单号告知客服，由良仓承担退回运费，货款将在良仓收到货物后5个工作日内打到您的付款账户中；由于尺码不合等个人原因造成的往返退货费用将由购买客户承担。
+						</div>
+						<div class="return">
+							三、换货说明：如果您收到的服饰配件类商品尺码不合适，良仓愿意为您提供换货，在商品及吊牌、内包装完整无破损且不影响二次销售的情况下，请在快递被签收后72小时内登录APP点击个人-我的订单-售后即可申请换货，并将实物商品拍照上传保存，在得到客服换货确认回复之日起3日内将商品寄出，同时请将快递公司和单号告知客服，由于尺码不合等原因造成的往返换货费用将由购买客户承担。
+						</div>
+						<div class="return">
+							对于下列情况，很遗憾我们将无法提供理赔服务，敬请理解：
+							 <br>
+							 1.&nbsp;&nbsp;  超出签收后7日无理由退换货受理时限
+                              <br>
+							 2.&nbsp;&nbsp;   收件人因自身原因无法及时签收或拒收
+                               <br>
+							 3.&nbsp;&nbsp;   商品存在破损或质量问题但无法提供相关照片凭证或直接将商品丢弃
+						</div>
+					</div>
+					<div class="connect">
+						<div class="reminder">联系客服：</div>
+						<div class="aftre-sales-service">客服热线： 400-897-6336</div>
+						<div class="aftre-sales-service">在线客服工作时间： 09:00-23:00</div>
+						<div class="aftre-sales-service">电话客服工作时间： 09:00-18:00</div>
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				<div>
+					<a href="javascript:;">
+						<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/24/24832.png" >
+					</a>
+					
+				</div>
+			</div>
+			
+			<!-- 图标区 -->
+			<div class="service">
+				<a href="#">
+					<p class="hand"></p>
+				</a>
+				<div class="slogen">
+					<dl class="fore1">
+						<dt></dt>
+						<dd>
+							<p class="chinesetop">全球精品</p>
+							<p class="english">Global Selections</p>
+						</dd>
+					</dl>
+					<dl class="fore2">
+						<dt></dt>
+						<dd>
+							<p class="chinesetop">正品保证</p>
+							<p class="english">Authenticity Guaranteed</p>
+						</dd>
+					</dl>
+					<dl class="fore3">
+						<dt></dt>
+						<dd>
+							<p class="chinesetop">全场包邮</p>
+							<p class="english">Free Delivery</p>
+						</dd>
+					</dl>
+					<dl class="fore4">
+						<dt></dt>
+						<dd>
+							<p class="chinesetop">400-897-6336</p>
+							<p class="english">工作日 09:00-18:00</p>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!-- 底部-->
+			<div class="footer">
+				<div class="wrap">
+					<div class="footLeft f1">
+						<a href="#" class="footLeft-a">
+							<div class="download">
+								<p class="iphone">
+									<span class="numLeFont">iphone Android</span>
+								</p>
+								<p class="client-down">客户端下载</p>
+								<div class="download-code">
+									<dl class="iphone">
+										<dt></dt>
+										<dd>下载iphone版</dd>
+									</dl>
+									<dl class="android">
+										<dt></dt>
+										<dd>下载android版</dd>
+									</dl>
+									
+								</div>
+							</div>
+						</a>
+						<div class="friendly">
+							<p class="toplink">
+								<a href="#"class="first">关于良仓</a>
+								<a href="#">服务协议</a>
+								<a href="#">隐私保护政策</a>
+								<a href="#">使用指南</a>
+								<a href="#">联系我们</a>
+								<a href="#">加入我们</a>
+								<a href="#">友情链接</a>
+								<a href="#">私信良仓</a>
+							</p>
+							<p>
+								<span class="numLeFont">©</span>
+								<span> 2013-2019 北京良仓文化传播有限公司版权所有 </span>
+							</p>
+							<p>  公司名称：北京良仓文化传播有限公司  电话：010-58696733</p>
+							<p>  公司地址：北京朝阳区百子湾路32号6号楼1层60号.</p>
+							<p>  社会信用统一代码：91110105059231575L  食品许可证：JY11105160159557  </p>
+							<p>  图书证名称：中华人民共和国出版物经营许可证  图书证编号：新出发京零 字第 朝 150051 号  </p>
+							<p>
+								<a href="http://www.beian.miit.gov.cn/" style="background: url();">
+									<span style="margin-left: -10px;">京</span>
+									<span class="numLeFont">ICP</span>
+									<span>备</span>
+									<span class="numLeFont">130101677</span>
+									<span class="numLeFont">号</span>
+									<span class="numLeFont">-1</span>
+								</a>
+								<span> 京公网安备</span>
+								<span class="numLeFont">11010502025627</span>
+							</p>
+						</div>
+					</div>
+				    <div class="footRight text-r fr">
+				    	<div class="commun">
+							<ul>
+								<li>
+									<a class="douban" href="http://site.douban.com/208766/"></a>
+								</li>
+								<li>
+									<a class="sina" href="http://weibo.com/iliangcang"></a>
+								</li>
+								<li>
+									<a class="wechat" href="javascript:;">
+										<div class="wechat-code" >
+											<s></s>
+										</div>
+									</a>
+									
+									
+								</li>
+							</ul>
+				    		
+				    	</div>
+				    </div>
+				</div>
+			</div>
+			<!-- 固定二维码区 -->
+			<div class="right-side-code">
+				<div class="closeBtn"></div>
+				<img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/30/30892.png" class="qrcodeImage" >
+			</div>
+		    <div class="backTop">
+		    	<a href="#" class="top"></a>
+		    </div>
+		    <div class="contact">
+		    	<a href="">联系客服</a>
+		    </div>
+		</body>
+	</html>
+	<script src="js/封装.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/Goodsdetail.js" type="text/javascript" charset="utf-8"></script>
